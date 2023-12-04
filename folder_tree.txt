@@ -1,0 +1,38 @@
+_DIR
+  |__ data			#Lưu các module để mount dữ liệu, xử lý sự kiện .v.v.
+  |     |__ colision.py		#	module xử lý va chạm
+  |     |__ level.py		#	module thiết kế cho chế độ chơi level
+  |     |__ map.py		#	module lưu dữ liệu vị trí tường và mount hình ảnh các bản đồ
+  |     |__ snake.py		#	module mount hình ảnh rắn
+  |     |__ sound.py		#	module điều khiển âm thanh
+  |     |...			#	...
+  |    
+  |__ img			#Lưu các hình ảnh để hiển thị
+  |     |__ maps		#Hình ảnh bản đồ
+  |     |     |__ 1		#	bản đồ 1
+  |     |     |   |__ wall.png	#		hình ảnh tường
+  |     |     |   |__ map.png	#		hình ảnh background của bản đồ
+  |     |     |
+  |     |     |__ 2		#	bản đồ 2
+  |     |     |...		#	...
+  |     |
+  |     |__ snakes		#Lưu các hình ảnh rắn hiển thị
+  |     |     |__ 1		#	rắn 1
+  |     |     |__ 2		#	rắn 2
+  |     |     |...		#	...
+  |     | 
+  |     |__ surfaces		#Lưu hình ảnh của các giao diện
+  |     |     |__ main_menu	#	giao diện MAIN_MENU
+  |     |     |__ option	#	giao diện OPTION
+  |     |     |...		#	...
+  |  
+  |__ sound			#Lưu các file âm thanh
+  |     |__ effect		#	sound effect
+  |     |__ music		#	âm nhạc
+  |     |...			#	...
+  |
+  |__ snake_y.py		#File chương trình chính
+
+
+
+
