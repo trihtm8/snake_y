@@ -14,6 +14,7 @@ from data import score
 pygame.init()
 pygame.font.init()
 DISPLAYSURF = pygame.display.set_mode((850,650))
+pygame.display.set_caption('Snake_y game')
 FPS=60
 fpsClock=pygame.time.Clock()
 #done
